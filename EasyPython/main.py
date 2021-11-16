@@ -2,6 +2,7 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from functools import reduce
 
 
 def print_hi(name):
@@ -134,6 +135,18 @@ def test_time():
             print("Error local {} is not correct".format(lang_country))
 
 
+def test_foonc_tools():
+    array = [1, 2, 3, 4, 5, 5, 4, 3, 2, 1]
+    array_less3 = list(filter(lambda x: x < 3, array))
+    print(array_less3)
+
+    arra_two = list(map(lambda x: x*2, array))
+    print(arra_two)
+
+    # reduce() последовательно применяет функцию-аргумент к элементам списка, возвращает единичное значение
+    max_value_in_array = reduce(lambda x, y: x if (x > y) else y, array)
+    print(max_value_in_array)
+
 
 if __name__ == '__main__':
     z = 4
@@ -150,3 +163,4 @@ if __name__ == '__main__':
 
     # test_time()
 
+    # test_foonc_tools()
