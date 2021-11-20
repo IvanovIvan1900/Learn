@@ -10,6 +10,7 @@ construct = "^2.10.67"
 beautifulsoup4 = "^4.10.0"
 requests = "^2.26.0"
 gevent = "^21.8.0"
+PyInquirer = "^1.0.3"
 [tool.poetry.dev-dependencies]
 
 [build-system]

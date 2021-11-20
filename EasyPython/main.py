@@ -148,6 +148,15 @@ def test_foonc_tools():
     print(max_value_in_array)
 
 
+def test_excpt():
+    try:
+        return 1/0
+    except Exception:
+        return 2
+    finally:
+        return 3
+
+
 if __name__ == '__main__':
     z = 4
     # test_vklychenie()
@@ -164,3 +173,5 @@ if __name__ == '__main__':
     # test_time()
 
     # test_foonc_tools()
+
+    print(test_excpt())
