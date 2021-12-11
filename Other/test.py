@@ -52,8 +52,17 @@ def test_unpack():
     for key, (value1, value2) in dic_of_tuple.items():
         print("succes")
     
+    
+def test_set():
+    s = set('abc')
+    s.add('def')
+    s.update(['p', 'q'])
+    
+    print(sorted(s))
+    
 if __name__ == '__main__':
     # print(convert_timedelat_to_human(datetime.timedelta(seconds=5*34*60)))
     #test_get()
     # test_unpack()
-    test_class_var()
+    #test_class_var()
+    test_set()

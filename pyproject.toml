@@ -13,6 +13,8 @@ gevent = "^21.8.0"
 PyInquirer = "^1.0.3"
 pytest = "^6.2.5"
 mypy = "^0.910"
+Pympler = "^0.9"
+
 [tool.poetry.dev-dependencies]
 autopep8 = "^1.6.0"
 
