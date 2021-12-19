@@ -1,0 +1,9 @@
+
+ipython:S11921"LDefine a constant instead of duplicating this literal "test string" 3 times.(ÅÌÑ‹ùÿÿÿÿ
+Kpython:S1481D".Remove the unused local variable "byte_array".(›ĞÌ£şÿÿÿÿ
+Jpython:S1481C"2Remove the unused local variable "byte_immutable".(ì”ô
+Cpython:S1481†"%Remove the unused local variable "e".(¼–¯¸ÿÿÿÿÿ
+@python:S1481}")Remove the unused local variable "names".(°Ùï*
+;python:S125~"Remove this commented out code.(ƒÇÓèùÿÿÿÿ
+Qpython:S1143"9Remove this "return" statement from this "finally" block.(ŞˆŞ
+<python:S125¤"Remove this commented out code.(İ€»–ùÿÿÿÿ

@@ -133,9 +133,16 @@ from some.deep.module.inside.a.module import a_nice_function, another_nice_funct
     yet_another_nice_function
     
 # good
-my_very_big_string = """For a long time I used to go to bed early. Sometimes, \
+my_very_big_string = ("For a long time I used to go to bed early. Sometimes, \
     when I had put out my candle, my eyes would close so quickly that I had not even \
-    time to say “I’m going to sleep.”"""
+    time to say “I’m going to sleep.”")
 
 from some.deep.module.inside.a.module import a_nice_function, another_nice_function, \
     yet_another_nice_function
+
+def test_strange_boolean():
+    # https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not
+    print('0 or 10 = {}'.format(0 or 10))
+    print('1 or 10 = {}'.format(1 or 10))
+    print('0 and 10 = {}'.format(0 and 10))
+    print('1 and 10 = {}'.format(1 and 10))

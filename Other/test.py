@@ -60,9 +60,21 @@ def test_set():
     
     print(sorted(s))
     
+def test_num(num):
+    return num-1 or num+1 and num*3
+    
+def test_strange_boolean():
+    print('0 or 10 = {}'.format(0 or 10))
+    print('1 or 10 = {}'.format(1 or 10))
+    print('0 and 10 = {}'.format(0 and 10))
+    print('1 and 10 = {}'.format(1 and 10))
+
+
 if __name__ == '__main__':
     # print(convert_timedelat_to_human(datetime.timedelta(seconds=5*34*60)))
     #test_get()
     # test_unpack()
     #test_class_var()
-    test_set()
+    # test_set()
+    #print(test_num(1))
+    test_strange_boolean()
